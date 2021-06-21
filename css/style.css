@@ -1,0 +1,28 @@
+body {
+  background-image: linear-gradient(to bottom, #4782fe, #427ffa, #3c7bf6, #3678f3, #3075ef, #317ff1, #3688f3, #3e91f4, #5ba7f8, #7bbdfb, #9dd1fd, #c1e5ff); }
+
+.logoHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.sizeImg {
+  width: 180px;
+  height: 180px; }
+
+.tabla, .listasTabla {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0%; }
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.mapa {
+  margin: 0 auto;
+  display: flex; }
