@@ -1,6 +1,30 @@
 body {
   background-image: linear-gradient(to bottom, #4782fe, #427ffa, #3c7bf6, #3678f3, #3075ef, #317ff1, #3688f3, #3e91f4, #5ba7f8, #7bbdfb, #9dd1fd, #c1e5ff); }
 
+.navbar-brand img {
+  height: 120px;
+  padding-top: 1px; }
+
+.navbar-brand img:hover {
+  height: 125px;
+  transition: 1s; }
+
+.navbar {
+  padding: 5px 0 9px;
+  box-shadow: rgba(0, 0, 0, 0.76); }
+
+.nav-link {
+  color: #4782fe;
+  text-transform: uppercase;
+  font-weight: 200;
+  letter-spacing: 2px;
+  font-size: 19px;
+  text-shadow: 1px, 1px, 1px rgba(0, 0, 0, 0.76);
+  margin-right: 2px; }
+
+.nav-link:hover {
+  border-bottom: 1px solid #4782fe; }
+
 .logoHeader {
   display: flex;
   justify-content: center;

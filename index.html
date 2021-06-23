@@ -15,33 +15,22 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="cuerpo">
-    <header class="bg-white">
-        <a href="../index.html" class="logoHeader">
-            <img src="assets/logo.png" alt="monster" class="logoHeader">
-        </a>
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-            <a class="navbar-brand d-none d-xs-block" href="index.html">
-                <img src="assets/Logo.png" alt="" style="width: 50px;">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="pages/contacto.html">Contacto</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="pages/servicios.html">Servicios</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="pages/sobrenosotros.html">Nosotros</a>
-                </li>    
+    <header class="sticky-top">
+        <nav class="navbar bg-light navbar-white navbar-expand-lg sticky-top">
+            <div class="container px-3">
+                <a href="index.html" class="navbar-brand"><img src="assets/Logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a href="pages/contacto.html" class="nav-link">Contacto</a></li>
+                        <li class="nav-item"><a href="pages/servicios.html" class="nav-link">Servicios</a></li>
+                        <li class="nav-item"><a href="pages/sobrenosotros.html" class="nav-link">Nosotros</a></li>
+                    </ul>
+                </div>
             </div>
-            </nav>
-        </div>
+        </nav>
     </header>    
     <section class="cuerpo bg-transparent">
         <article>
@@ -125,7 +114,7 @@
             </div>
         </article>
     </section>
-    <footer class="site-footer">
+    <footer data-aos="fade-up" class="site-footer">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-12">
@@ -135,10 +124,10 @@
                 <div class="col-6 col-md-3">
                     <h6>Categorias</h6>
                     <ul class="footer-links">
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Contacto</a></li>
-                        <li><a href="#">Nosotros</a></li>
-                        <li><a href="#">Servicios</a></li>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="pages/contacto.html">Contacto</a></li>
+                        <li><a href="pages/sobrenosotros.html">Nosotros</a></li>
+                        <li><a href="pages/servicios.html">Servicios</a></li>
                     </ul>
                 </div>
                 <div class="col-12 col-md-3 col-sm-6">
