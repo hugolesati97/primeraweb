@@ -43,3 +43,52 @@ body{
     margin: 0 auto;
     display: map-get($estilo, display)
 }
+
+.head {
+    background-color: map-get($estilo, color );
+    border-radius: 6px;
+    margin-top: -40px;
+    -webkit-box-shadow: 7px 12px 17px -9px rgba(0, 0, 0, 0.76);
+    -moz-box-shadow: 7px 12px 17px -9px rgba(0, 0, 0, 0.76);
+    box-shadow: 7px 12px 17px -9px rgba(0, 0, 0, 0.76);
+}
+
+.effect-1{
+    border: 0;
+    outline: none;
+    width: 100%;
+    padding: 7px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.effect-1 ~ .Focus-border {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: map-get($estilo, color );
+    transition: 0.4s;
+}
+
+.effect-1:focus ~ .Focus-border {
+    width: 100%;
+    transition: 0.4s;
+    left: 0;
+}
+
+.btn1 {
+    background: map-get($estilo, color );
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    height: 45px;
+    width: 145px;
+}
+
+.btn1:hover {
+    -webkit-box-shadow: 7px 12px 17px -9px rgba(0, 0, 0, 0.76);
+    -moz-box-shadow: 7px 12px 17px -9px rgba(0, 0, 0, 0.76);
+    box-shadow: 7px 12px 17px -9px rgba(0, 0, 0, 0.76);
+}
